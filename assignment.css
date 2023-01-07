@@ -20,6 +20,19 @@
     position: absolute;
 }
 
+.btn-primary {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F15B22;
+    padding: 15px 25px;
+    position: absolute;
+    text-align: right;
+    top: 600px;
+    right: 200px;
+    border-radius: 5px;
+    color: #FFFFFF
+}
+
 .sub-title {
     font-size: 16px;
     font-weight: 400;
@@ -63,7 +76,7 @@
     top: 1790px;
 }
 
-/*  */
+/* plan section styles  */
 .plan {
     text-align: center;
     font-size: 30px;
