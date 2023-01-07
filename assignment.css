@@ -10,10 +10,10 @@
 }
 
 .header-title {
-    width: 525px;
-    height: 228px;
-    left: 845px;
-    top: 216px;
+    width: 530px;
+    height: 230px;
+    left: 800px;
+    top: 200px;
     font-weight: 700;
     font-size: 65px;
     text-align: right;
@@ -49,8 +49,111 @@
 
 .right-section {
     position: absolute;
-    width: 416px;
+    width: 420px;
     height: 400px;
     left: 800px;
     top: 280px;
+}
+
+.plan-section {
+    position: absolute;
+    width: 1140px;
+    height: 230px;
+    left: 200px;
+    top: 1790px;
+}
+
+/*  */
+.plan {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.web-developer {
+    display: flex;
+}
+
+.web-development {
+    margin-right: 17%;
+}
+
+.javascript {
+    margin-right: 17%;
+}
+
+.smoking {
+    margin-right: 17%;
+}
+
+.awlays-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: 700;
+    color: whitesmoke
+}
+
+.awlays {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    top: 2130px;
+    height: 230px;
+    right: 15%;
+    background-image: url('images/watch.png'), url('images/gradient2.png');
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+
+/* footer Styles */
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 300px;
+    left: 0px;
+    top: 2500px;
+    background-color: black;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.future {
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    color: white;
+}
+
+.future h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subscribe {
+    position: absolute;
+    width: 325px;
+    height: 144px;
+    left: 1045px;
+    color: white;
+}
+
+.btn-pro {
+    margin: 20px 10px;
+    padding: 15px 52px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+}
+
+.subscribe h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.input {
+    padding: 15px 8px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
